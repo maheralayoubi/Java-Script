@@ -85,6 +85,12 @@ header > h1 {
   background: #24272E;
 }
 
+.choice > img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 40px;
+}
+
 #action-message {
   text-align: center;
   color: white;
