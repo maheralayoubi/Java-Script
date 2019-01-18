@@ -12,12 +12,14 @@ function getComputerChoice() {
   const choices = ['r', 'p', 's'];
   // Math.random gets random numbers brtween 0 and 3
   // Math.floor  gets rid of the decimal number. So, the choices will be (0,1,2)
-  console.log(Math.floor(Math.random() * 3);
+  const randomNumber = Math.floor(Math.random() * 3);
+  return choices[randomNumber];
 }
-getComputerChoice();
 
 function game(userChoice) {
-  console.log('User choice is: ' + userChoice)
+  const computerChoice = getComputerChoice();
+  console.log('User: ', userChoice);
+  console.log('Computer: ', computerChoice);
 }
 
 function main(){
