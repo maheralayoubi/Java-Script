@@ -31,9 +31,7 @@ function main(){
     game('p');
   })
 
-  scissors_div.addEventListener('click', function() {
-    game('s');
-  })
+
 }
 
 main();
