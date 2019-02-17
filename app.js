@@ -15,7 +15,7 @@ function getComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3);
   return choices[randomNumber];
 }
-
+//Choices functions
 function win(userChoice, computerChoice) {
   userScore++;
   userScore_span.innerHTML = userScore;
@@ -30,7 +30,7 @@ function lose() {
 function draw() {
   console.log("DRAW");
 }
-
+//Game functions
 function game(userChoice) {
   const computerChoice = getComputerChoice();
   switch (userChoice + computerChoice) {
